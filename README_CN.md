@@ -1,43 +1,40 @@
 <div align="center">
 
-<!-- Language Switch Buttons -->
-<img src="https://img.shields.io/badge/English-Current-000000?style=for-the-badge&logo=google-translate&logoColor=white" alt="English Badge">
-
-<a href="./README_CN.md">
-    <img src="https://img.shields.io/badge/中文-Click_to_Switch-EE4C2C?style=for-the-badge&logo=google-translate&logoColor=white" alt="Chinese Badge">
-</a>
+<!-- 语言切换按钮 -->
+<a href="./README.md"><img src="https://img.shields.io/badge/English-Click_to_Switch-2ea44f?style=for-the-badge&logo=google-translate&logoColor=white" alt="English Badge"></a>
+<img src="https://img.shields.io/badge/中文-当前语言-000000?style=for-the-badge&logo=google-translate&logoColor=white" alt="Chinese Badge">
 
 </div>
 
 ---
 
-## Hi there 👋, I'm XuXiaorui, a CS Student & AI Agent Enthusiast!
+## Hi there 👋, 我是徐筱睿, CS 学生 & AI Agent 开发者
 
-I am a Computer Science student exploring the boundaries between **Code** and **NoCode**.  
-I am dedicated to building next-generation automation workflows and applications using **AI Agents** and the **Vibe-coding** paradigm.
+我是计算机科学专业的学生，热衷于探索 **Code** 与 **NoCode** 的边界。  
+我致力于利用 **AI Agents** 和 **Vibe-coding** 范式来构建下一代自动化工作流与应用。
 
 ---
 
-- 🔭 **I’m currently working on:**  
-  Developing an enterprise-level automated reporting system based on **Multi-Agent** architecture and validating it on **Kaggle**.
+- 🔭 **目前正在进行:**  
+  开发基于 **Multi-Agent** 的企业级自动化报告生成系统，并在 **Kaggle** 上进行验证。
 
-- 🌱 **I’m currently learning:**  
-  Deep diving into **Agentic Workflow** orchestration, advanced RAG techniques, and integrating LLM capabilities seamlessly into NoCode platforms (like Kiro/Coze).
+- 🌱 **正在深入学习:**  
+  研究 **Agentic Workflow** 编排、RAG 进阶技术以及如何将 LLM 能力无缝集成到 NoCode 平台（如 Kiro/响指）中。
 
-- 👯 **I’m looking to collaborate on:**  
-  **Datawhale** open-source learning projects, **ModelScope** community toolchains, and any interesting AI-assisted development tools.
+- 👯 **寻求合作:**  
+  **Datawhale** 开源学习项目、**ModelScope** 社区工具链建设，以及任何有趣的 AI 辅助开发工具。
 
-- 💬 **Ask me about:**  
-  **Vibe-coding** best practices, Python backend development, and how to launch MVPs quickly using low-code tools.
+- 💬 **欢迎交流:**  
+  **Vibe-coding** 最佳实践、Python 后端开发、以及如何用低代码工具快速落地 MVP。
 
 - ⚡ **Fun fact:**  
-  I believe future programming is "Human Intent + AI Implementation". I am practicing this philosophy via platforms like Kiro.
+  我相信未来的编程是 "Human Intent + AI Implementation"（人类意图 + AI 实现）。我正在通过 Kiro 等平台践行这一理念。
 
 ---
 
-### 🔥 My Full-Stack & AI Agent Toolkit
+### 🔥 全栈 & AI Agent 技术工具箱
 
-I specialize in full-stack development using modern tech stacks and AI frameworks:
+我擅长使用现代技术栈与 AI 框架进行全栈开发：
 
 <div align="center">
 
@@ -66,17 +63,15 @@ I specialize in full-stack development using modern tech stacks and AI framework
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 精选项目
 
-| Project | Description | Tech Stack |
+| 项目名称 | 描述 | 技术栈 |
 | :--- | :--- | :--- |
-| **Enterprise Report Agent** | A Multi-Agent system for automated corporate report generation (Kaggle Capstone). | `Multi-Agent` `Python` `LangChain` |
-| **Trip-Weaver** | AI-driven travel planning platform built on **Kiro** (Vibe-coding). | `Vibe-coding` `NoCode` `React` |
+| **Enterprise Report Agent** | 基于多智能体协作的企业自动报告生成系统 (Kaggle Capstone) | `Multi-Agent` `Python` `LangChain` |
+| **Trip-Weaver** | AI 驱动的旅游记录与路线规划平台，基于 **Kiro** 构建 | `Vibe-coding` `NoCode` `React` |
 
 ---
 
 <div align="center">
-<p>
-<i>Let's build something amazing together!</i>
-</p>
+<p><i>Let's build something amazing together!</i></p>
 </div>
