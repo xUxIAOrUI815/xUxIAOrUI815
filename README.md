@@ -1,14 +1,10 @@
 <div align="center">
 
-<!-- Spacer -->
-<br/><br/>
-
 <!-- Dynamic Header with Typing Effect -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=F7F7F7&background=00000000&center=true&vCenter=true&width=435&lines=Hi+there!+I'm+XuXiaorui;CS+Student+%26+Developer;AI+Agent+Enthusiast;NoCode+%2B+Code+Explorer&multiline=true&repeat=true&width=435&height=50&color=36BCF7" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=1E90FF&center=true&vCenter=true&width=435&lines=Hi+there!+I'm+XuXiaorui;CS+Student+%26+Developer;AI+Agent+Enthusiast;NoCode+%2B+Code+Explorer" alt="Typing SVG" />
 </a>
 
-<br/>
 
 <!-- Intro Text -->
 <p align="center" style="font-size: 16px; max-width: 600px;">
