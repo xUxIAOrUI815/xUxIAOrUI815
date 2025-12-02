@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历 - 美团NoCode校园大使</title>
+    <!-- 引入 FontAwesome 图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            /* 美团黄 */
+            --primary-color: #FFC300; 
+            /* 深灰色文本 */
+            --text-dark: #333333;
+            /* 浅灰色辅助文本 */
+            --text-light: #666666;
+            /* 背景白 */
+            --bg-white: #FFFFFF;
+            /* 边框灰 */
+            --border-color: #e0e0e0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: var(--text-dark);
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+        }
+
+        /* A4 纸张大小模拟 */
+        .resume-container {
+            width: 210mm;
+            min-height: 297mm;
+            background-color: var(--bg-white);
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* 头部设计 */
+        header {
+            background-color: var(--text-dark);
+            color: var(--bg-white);
+            padding: 40px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 8px solid var(--primary-color);
+        }
+
+        .header-left h1 {
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+        }
+
+        .header-left h1 span {
+            color: var(--primary-color); /* 名字变为美团黄 */
+        }
+
+        .header-left p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .header-right ul {
+            list-style: none;
+            text-align: right;
+            font-size: 14px;
+        }
+
+        .header-right li {
+            margin-bottom: 6px;
+        }
+
+        .header-right i {
+            color: var(--primary-color);
+            margin-right: 8px;
+            width: 16px;
+            text-align: center;
+        }
+
+        /* 主体内容 */
+        .main-content {
+            padding: 30px 50px;
+        }
+
+        /* 模块通用样式 */
+        section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: var(--text-dark);
+            border-left: 5px solid var(--primary-color);
+            padding-left: 10px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+        }
+
+        .section-title::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border-color);
+            margin-left: 15px;
+        }
+
+        /* 教育背景 & 经历行 */
+        .item-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .item-sub-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: var(--text-dark);
+            font-style: italic;
+        }
+
+        .date {
+            color: var(--text-light);
+            font-weight: normal;
+        }
+
+        .experience-item, .project-item {
+            margin-bottom: 20px;
+        }
+
+        ul.content-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul.content-list li {
+            position: relative;
+            padding-left: 18px;
+            margin-bottom: 6px;
+            font-size: 14px;
+            color: #444;
+        }
+
+        ul.content-list li::before {
+            content: '•';
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 18px;
+            position: absolute;
+            left: 0;
+            top: -2px;
+        }
+
+        /* 技能标签 */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .skill-tag.highlight {
+            background-color: rgba(255, 195, 0, 0.2);
+            border-color: var(--primary-color);
+            color: #333;
+        }
+
+        /* 打印适配 */
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+            }
+            .resume-container {
+                width: 100%;
+                box-shadow: none;
+                min-height: auto;
+            }
+            header {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <!-- 头部信息 -->
+        <header>
+            <div class="header-left">
+                <!-- 请在此处修改你的名字 -->
+                <h1>徐<span>筱睿</span></h1>
+                <p>求职意向：美团 NoCode 平台校园大使</p>
+            </div>
+            <div class="header-right">
+                <ul>
+                    <!-- 请在此处修改你的联系方式 -->
+                    <li><i class="fas fa-phone"></i> 158-6001-9933</li>
+                    <li><i class="fas fa-envelope"></i> 213233995@seu.edu.cn</li>
+                    <li><i class="fab fa-weixin"></i> good_xxrrr</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 江苏 · 南京（在校生）</li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="main-content">
+            
+            <!-- 自我评价 / 申请理由 -->
+            <section>
+                <div class="section-title">个人优势 & 申请理由</div>
+                <ul class="content-list">
+                    <li>
+                        <strong>NoCode & AI 深度玩家：</strong> 
+                        长期关注效率工具赛道，熟练使用 <strong>Kiro、响指</strong> 等新一代生产力平台；拥有丰富的 <strong>Vibe-coding</strong> 经验，深刻理解 AI Agent 如何赋能 NoCode 实现逻辑自动化，能敏锐捕捉产品在校园场景下的结合点。
+                    </li>
+                    <li>
+                        <strong>开源社区活跃者：</strong> 
+                        热衷于开源文化与技术交流，是 <strong>ModelScope（魔搭）</strong> 等技术社区线下活动的积极参与者。相比于泛泛的社交，更擅长通过“技术分享”和“工具安利”在极客圈层和开发者群体中建立深度影响力。
+                    </li>
+                    <li>
+                        <strong>场景化落地思维：</strong> 
+                        不只懂技术，更懂应用。能够将抽象的 NoCode 概念转化为大学生易感知的<strong>“痛点解决方案”</strong>（如：AI 辅助论文归档、社团自动化工作流），以“产品体验官”和“布道师”的身份推动美团平台在校园内的口碑传播。
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 教育背景 -->
+            <section>
+                <div class="section-title">教育背景</div>
+                <div class="experience-item">
+                    <div class="item-row">
+                        <span>东南大学</span>
+                        <span class="date">2023.09 - 2027.06（预计）</span>
+                    </div>
+                    <div class="item-sub-row">
+                        <span>计算机科学与技术 / 本科</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 校园/实习经历 (重点展示) -->
+            <section>
+                <div class="section-title">开源社区 & 项目实践</div>
+                
+                <div class="experience-item">
+                    <div class="item-row">
+                        <span>2025 Datawhale AI 秋训营 / AI辅助应用开发赛道</span>
+                        <span class="date">2025.09 - 2025.11</span>
+                    </div>
+                    <div class="item-sub-row">
+                        <span>项目：Trip-Weaver（旅游记录与规划平台） | 核心开发者</span>
+                    </div>
+                    <ul class="content-list">
+                        <li><strong>Vibe-coding 实践：</strong> 基于 <strong>Kiro</strong> 平台，通过自然语言交互快速构建应用前端与逻辑。深度体验了“AI 生成代码 + 人工微调”的开发新范式，验证了低代码平台在快速原型验证（MVP）中的巨大优势。</li>
+                        <li><strong>产品落地：</strong> 打造 Trip-Weaver 平台，整合了路线规划与旅行手账功能。在开发过程中，深入挖掘了 Kiro 平台的能力边界，具备撰写高质量“平台使用教程”或“避坑指南”的能力，适合向校园开发者做技术布道。</li>
+                        <li><strong>社区协作：</strong> 积极参与 Datawhale 社区讨论，协助同组学员解决 Prompt 调试问题，沉淀了良好的开源社区协作经验。</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="item-row">
+                        <span>Kaggle: Agents Intensive Capstone Project</span>
+                        <span class="date">2025.11 - 2025.12</span>
+                    </div>
+                    <div class="item-sub-row">
+                        <span>项目：Enterprise Report Generator System（企业自动报告生成系统）</span>
+                    </div>
+                    <ul class="content-list">
+                        <li><strong>Multi-Agent 架构：</strong> 设计并实现了一个多智能体协作系统。通过编排不同职能的 Agent（数据检索、分析、撰写），实现了企业级报告的自动化生成，解决复杂工作流自动化难题。</li>
+                        <li><strong>逻辑编排能力：</strong> 该项目锻炼了极强的<strong>逻辑拆解与工作流编排</strong>能力。这与美团 NoCode 平台核心的“逻辑编排/流程自动化”理念高度契合，能够快速理解并上手美团内部的逻辑编排工具，并将其转化为学生易懂的案例。</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <div class="section-title">专业技能 & 综合素质</div>
+                
+                <!-- 技能标签云 -->
+                <div class="skills-container">
+                    <!-- 核心竞争力高亮 -->
+                    <span class="skill-tag highlight">Multi-Agent System 开发</span>
+                    <span class="skill-tag highlight">Vibe-coding / Prompt Engineering</span>
+                    <span class="skill-tag highlight">NoCode 平台 (Kiro/响指/Coze)</span>
+                    
+                    <!-- 计算机专业底座 -->
+                    <span class="skill-tag">Python & LLM 框架集成</span>
+                    <span class="skill-tag">Web 前端基础 (HTML/CSS/JS)</span>
+                    
+                    <!-- 社区软技能 -->
+                    <span class="skill-tag">开源社区运营</span>
+                    <span class="skill-tag">技术布道与写作</span>
+                </div>
+
+                <!-- 证书与补充说明 -->
+                <div style="margin-top: 15px;">
+                    <ul class="content-list">
+                        <li><strong>CS 专业背景：</strong> 具备扎实的算法与数据结构基础，深刻理解 NoCode 平台背后的“对象模型”与“逻辑编排”原理，能够从开发者视角快速解构产品逻辑。</li>
+                        <li><strong>技术栈补充：</strong> 熟悉 Git 工作流，有阅读英文技术文档及 Paper 的能力，能够快速上手美团内部开发文档并转化为小白教程。</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
