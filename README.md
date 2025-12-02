@@ -42,19 +42,19 @@ I specialize in full-stack development using modern tech stacks and AI framework
 <div align="center">
 
 <!-- Frontend & Backend -->
-<a href="https://react.dev/" target="_blank"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React"></a>
+<!-- <a href="https://react.dev/" target="_blank"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React"></a>
 <a href="https://nodejs.org/" target="_blank"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"></a>
-<a href="https://www.typescriptlang.org/" target="_blank"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+<a href="https://www.typescriptlang.org/" target="_blank"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a> -->
 <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
 
 <!-- Infrastructure & Database -->
-<a href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"></a>
+<!-- <a href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"></a> -->
 <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
 <a href="https://aws.amazon.com/" target="_blank"><img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"></a>
 
 <!-- AI & LLM Frameworks -->
 <a href="https://python.langchain.com/" target="_blank"><img src="https://img.shields.io/badge/LangChain-1976D2?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain"></a>
-<a href="https://www.llamaindex.ai/" target="_blank"><img src="https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge&logo=LlamaIndex&logoColor=white" alt="LlamaIndex"></a>
+<!-- <a href="https://www.llamaindex.ai/" target="_blank"><img src="https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge&logo=LlamaIndex&logoColor=white" alt="LlamaIndex"></a> -->
 <a href="https://pytorch.org/" target="_blank"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"></a>
 
 <!-- Communities & Platforms -->
