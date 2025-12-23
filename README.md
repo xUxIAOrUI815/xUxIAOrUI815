@@ -23,7 +23,6 @@
 
   </div> -->
 
-
 </div>
 <div align="center">
     <a href="mailto:你的邮箱@example.com">
@@ -33,9 +32,8 @@
       <img src="https://img.shields.io/badge/Role-Backend_Engineer-3776AB?style=flat-square&logo=python&logoColor=white" />
       <img src="https://img.shields.io/badge/Role-Product_Manager-FF9900?style=flat-square&logo=producthunt&logoColor=white" />
     </a>
-    
 
-    
+
 </div>
 <br/>
 
@@ -93,7 +91,7 @@
 
 <br/>
 
-<!-- 4. Footer / Connect (模仿 LofiSu 的魔法链接区，简洁版) -->
+<!-- 4. Footer / Connect -->
 <div align="center">
   <h3>📫 Connect & Reach Out</h3>
   
@@ -105,9 +103,8 @@
     <img src="https://img.shields.io/badge/Blog-Read_Notes-3776AB?style=flat-square&logo=hexo&logoColor=white" />
   </a> -->
 
-  
-  <br/><br/>
-  
+<br/><br/>
+
   <p align="center" style="font-size: 14px; color: #888;">
     <i>"Less boilerplate, more logic. Coding with the vibe."</i> ⚡
   </p>
