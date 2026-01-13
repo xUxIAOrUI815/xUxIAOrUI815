@@ -1,114 +1,120 @@
 <!-- 1. Header & Intro -->
 <div align="center">
   
-  <!-- 头像 (可选，如果你有好看的头像链接) -->
-  <!-- <img src="你的头像链接" width="100" style="border-radius: 50%;" /> -->
+  <!-- 如果你有头像，建议放这里，没有的话可以先注释掉 -->
+  <!-- <img src="你的头像链接" width="120" style="border-radius: 50%;" /> -->
 
   <h1>Hi 👋, I'm XuXiaorui</h1>
 
-  <!-- 打字机：动态展示身份 -->
+  <!-- 动态打字机：加入黑客松、AI Agent、实习生关键词 -->
   <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3776AB&center=true&vCenter=true&width=500&lines=CS+Student+%26+Full+Stack+Developer;Building+AI+Agents+%26+Automations;Exploring+the+Vibe-coding+Paradigm;Turning+Ideas+into+Reality+Fast" alt="Typing SVG" />
-</a>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3776AB&center=true&vCenter=true&width=600&lines=CS+Student+%26+Full+Stack+Developer;Building+AI+Agents+%26+Automations;Seeking+Internship+(AI+Dev+%2F+Product);Ready+for+Kaggle+%26+Hackathons;Vibe-coding+Practitioner" alt="Typing SVG" />
+  </a>
 
-  <p align="center" style="font-size: 16px; max-width: 600px; color: #666;">
-    🚀 <b>CS Major</b> focusing on engineering stability & AI innovation.<br/>
-    Bridging <b>Traditional Development</b> with <b>Agentic Workflows</b>.
+  <p align="center" style="font-size: 16px; max-width: 600px; color: #666; margin-bottom: 20px;">
+    🚀 <b>CS Major</b> bridging <b>Traditional Engineering</b> with <b>Agentic Workflows</b>.<br/>
+    Focusing on rapid MVP development and exploring the frontier of AI Applications.
   </p>
 
-  <!-- 状态胶囊 (模仿 LofiSu 的实习状态，改为求职状态) -->
-  <!-- <div>
-    <img src="https://img.shields.io/badge/Status-Open_to_Internship-2ea44f?style=flat-square&logo=github" />
-    <img src="https://img.shields.io/badge/Focus-Full_Stack_%26_AI-624AFF?style=flat-square&logo=openai" />
-
-  </div> -->
-
-
-</div>
-<div align="center">
-    <a href="mailto:你的邮箱@example.com">
-      <img src="https://img.shields.io/badge/Status-Actively_Seeking_Internship-2ea44f?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Status" />
-      <br/>
-      <img src="https://img.shields.io/badge/Role-Full_Stack_Dev-007EC6?style=flat-square&logo=react&logoColor=white" />
-      <img src="https://img.shields.io/badge/Role-Backend_Engineer-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/Role-Product_Manager-FF9900?style=flat-square&logo=producthunt&logoColor=white" />
+  <!-- 2. Status & Contact (修复了邮箱链接，增加了寻找队友的入口) -->
+  <div align="center">
+    <!-- 状态：正在求职 -->
+    <a href="mailto:1531793838@qq.com">
+      <img src="https://img.shields.io/badge/Status-Open_to_Internship-2ea44f?style=flat-square&logo=github&logoColor=white" alt="Status" />
     </a>
-    
+    <!-- 状态：寻找队友 -->
+    <a href="mailto:1531793838@qq.com?subject=Team%20Up%20for%20Kaggle/Hackathon">
+      <img src="https://img.shields.io/badge/Team_Up-Kaggle_%26_Hackathons-FF9900?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle Team Up" />
+    </a>
+    <!-- 邮箱 -->
+    <a href="mailto:1531793838@qq.com">
+      <img src="https://img.shields.io/badge/Email-1531793838@qq.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
+    </a>
+  </div>
 
-    
 </div>
+
 <br/>
 
+<!-- 3. What I'm Looking For (新增板块：明确表达诉求) -->
+<div align="center">
+  <table style="border: 1px solid #e1e4e8; border-radius: 10px; max-width: 700px;">
+    <tr>
+      <td align="center" style="padding: 15px;">
+        <h3>🎯 Collaboration & Opportunities</h3>
+        <p align="left" style="margin-left: 20px;">
+          <b>👋 For Recruiters:</b><br/>
+          I am actively seeking <b>Internships</b> in <b>AI Development</b> or <b>AI Product Management</b>. While I come from a Full Stack background, I am rapidly upskilling in LLM applications and Agentic workflows.
+        </p>
+        <p align="left" style="margin-left: 20px;">
+          <b>🤝 For Peers:</b><br/>
+          <ul>
+            <li align="left">Looking for <b>Teammates</b> for Kaggle competitions & Hackathons.</li>
+            <li align="left">Connecting with <b>AI Agent builders</b> to discuss ideas and co-build side projects.</li>
+          </ul>
+        </p>
+        <p align="center">
+            <i>"Let's turn ideas into reality fast."</i> ⚡
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<!-- 4. Tech Stack -->
 <div align="center">
   <h3>🛠️ Tech Stack & Arsenal</h3>
-  <!-- <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,java,cpp,js,ts,vue,react,spring,mysql,redis,docker,git,linux,html,css" />
-  </a> -->
-    <a href="https://skillicons.dev">
+  
+  <!-- 第一行：核心语言与前端 -->
+  <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=python,cpp,java,js,ts,html,css&perline=7" />
   </a>
   
-  <br/>
-  <br/>
+  <br/><br/>
 
-  <!-- 第二行：AI, Data & Tools (AI & DevOps) -->
+  <!-- 第二行：AI, Data & Tools -->
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,docker,git,linux,mysql,redis&perline=7" />
   </a>
-
-  <br/>
-  <br/>
+  
+  <p style="font-size: 12px; color: #888;">
+    + Exploring <b>Cursor/Windsurf</b> for AI-Native Development
+  </p>
 </div>
 
 <br/>
 
-<!-- 3. Experience & Community (借鉴 LofiSu 的 Emoji 列表风格) -->
-<!-- 这里不使用死板的列表，而是用 "标题 + 内容" 的居中块，看起来更像简历 -->
+<!-- 5. Experience & Community -->
 <div align="center">
-  
   <h3>🚀 Open Source & Community</h3>
   
   <table style="border: none;">
     <tr>
-      <td width="350" valign="top">
-        <h4 align="center">🏆 Achievements & Roles</h4>
+      <td width="350" valign="top" style="padding-right: 10px;">
+        <h4 align="center">🏆 Community Roles</h4>
         <ul>
-          <li><b>Datawhale</b> Member 🐋 <br/> <sub>Active contributor to open-source AI learning roadmaps.</sub></li>
-          <li><b>ModelScope</b> Community Developer 🤖 <br/> <sub>Building toolchains and participating in model applications.</sub></li>
-          <li><b>Kaggle</b> Competitor 🏅 <br/> <sub>Validating algorithms and Multi-Agent architectures.</sub></li>
+          <li><b>Datawhale Member</b> 🐋 <br/> <sub>Active contributor to open-source AI learning roadmaps.</sub></li>
+          <li><b>ModelScope Developer</b> 🤖 <br/> <sub>Building toolchains and participating in model applications.</sub></li>
+          <li><b>Kaggle Competitor</b> 🏅 <br/> <sub>Validating algorithms and Multi-Agent architectures.</sub></li>
         </ul>
       </td>
-      <td width="350" valign="top">
-        <h4 align="center">🔭 What I'm Building</h4>
+      <td width="350" valign="top" style="padding-left: 10px;">
+        <h4 align="center">🔭 Building in Public</h4>
         <ul>
-          <li><b>Enterprise Auto-Reporting System</b> 📊 <br/> <sub>Microservices architecture + Multi-Agent orchestration.</sub></li>
-          <li><b>RAG & Knowledge Base</b> 🧠 <br/> <sub>Integration of LLMs into NoCode platforms (Coze/Kiro).</sub></li>
-          <li><b>Full Stack MVPs</b> ⚡ <br/> <sub>Rapid development using Vibe-coding methodology.</sub></li>
+          <li><b>Enterprise Auto-Reporting</b> 📊 <br/> <sub>Microservices + Multi-Agent orchestration.</sub></li>
+          <li><b>RAG & Knowledge Base</b> 🧠 <br/> <sub>Integration of LLMs into NoCode platforms (Coze).</sub></li>
+          <li><b>Vibe Coding Experiments</b> ⚡ <br/> <sub>Rapid prototyping using AI-assisted IDEs.</sub></li>
         </ul>
       </td>
     </tr>
   </table>
-
 </div>
 
 <br/>
 
-<!-- 4. Footer / Connect (模仿 LofiSu 的魔法链接区，简洁版) -->
+<!-- 6. Footer -->
 <div align="center">
-  <h3>📫 Connect & Reach Out</h3>
-  
-  <!-- 社交按钮 -->
-  <a href="1531793838@qq.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=flat-square&logo=gmail&logoColor=white" />
-  </a>
-  <!-- <a href="你的博客或知乎链接">
-    <img src="https://img.shields.io/badge/Blog-Read_Notes-3776AB?style=flat-square&logo=hexo&logoColor=white" />
-  </a> -->
-
-  
-  <br/><br/>
-  
-  <p align="center" style="font-size: 14px; color: #888;">
-    <i>"Less boilerplate, more logic. Coding with the vibe."</i> ⚡
-  </p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" />
 </div>
