@@ -1,60 +1,62 @@
 <!-- 1. Header & Intro -->
 <div align="center">
-  
-  <!-- 如果你有头像，建议放这里，没有的话可以先注释掉 -->
-  <!-- <img src="你的头像链接" width="120" style="border-radius: 50%;" /> -->
 
   <h1>Hi 👋, I'm XuXiaorui</h1>
+  <h3>Backend / AI Engineering Student · Building Agentic Systems and Practical AI Tools</h3>
 
-  <!-- 动态打字机：加入黑客松、AI Agent、实习生关键词 -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3776AB&center=true&vCenter=true&width=600&lines=CS+Student+%26+Full+Stack+Developer;Building+AI+Agents+%26+Automations;Seeking+Internship+(AI+Dev+%2F+Product);Ready+for+Kaggle+%26+Hackathons;Vibe-coding+Practitioner" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3776AB&center=true&vCenter=true&width=760&lines=CS+Student+focused+on+Backend+%26+AI+Engineering;Building+Agentic+Systems%2C+RAG+Pipelines+%26+Developer+Tools;Learning+Go%2C+Python%2C+Systems+Design+%26+Open-Source+Engineering;Preparing+for+Backend+%2F+AI+Engineering+Internships" alt="Typing SVG" />
   </a>
 
-  <p align="center" style="font-size: 16px; max-width: 600px; color: #666; margin-bottom: 20px;">
-    🚀 <b>CS Major</b> bridging <b>Traditional Engineering</b> with <b>Agentic Workflows</b>.<br/>
-    Focusing on rapid MVP development and exploring the frontier of AI Applications.
+  <p align="center" style="font-size: 16px; max-width: 720px; color: #666; margin-bottom: 20px;">
+    🚀 <b>Computer Science student</b> exploring the intersection of <b>backend engineering</b>,
+    <b>LLM applications</b>, and <b>agent workflows</b>.<br/>
+    Currently focused on building practical projects in <b>Go</b>, <b>Python</b>, <b>RAG</b>, and <b>AI infrastructure</b>.
   </p>
 
-  <!-- 2. Status & Contact (修复了邮箱链接，增加了寻找队友的入口) -->
   <div align="center">
-    <!-- 状态：正在求职 -->
     <a href="mailto:1531793838@qq.com">
       <img src="https://img.shields.io/badge/Status-Open_to_Internship-2ea44f?style=flat-square&logo=github&logoColor=white" alt="Status" />
     </a>
-    <!-- 状态：寻找队友 -->
-    <a href="mailto:1531793838@qq.com?subject=Team%20Up%20for%20Kaggle/Hackathon">
-      <img src="https://img.shields.io/badge/Team_Up-Kaggle_%26_Hackathons-FF9900?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle Team Up" />
-    </a>
-    <!-- 邮箱 -->
     <a href="mailto:1531793838@qq.com">
-      <img src="https://img.shields.io/badge/Email-1531793838@qq.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
+      <img src="https://img.shields.io/badge/Focus-Backend_%2B_AI_Engineering-3776AB?style=flat-square&logo=python&logoColor=white" alt="Focus" />
+    </a>
+    <a href="mailto:1531793838@qq.com">
+      <img src="https://img.shields.io/badge/Email-1531793838@qq.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
     </a>
   </div>
+
+  <!-- GitRoll Badge -->
+  <p align="center" style="margin-top: 14px; margin-bottom: 8px;">
+    <a href="https://gitroll.io/profile/ugVp3fQXdOeauyeAfuFGl7cdVgpj1">
+      <img src="https://gitroll.io/api/badges/profiles/v1/ugVp3fQXdOeauyeAfuFGl7cdVgpj1?theme=light" alt="GitRoll Profile Badge" />
+    </a>
+  </p>
 
 </div>
 
 <br/>
 
-<!-- 3. What I'm Looking For (新增板块：明确表达诉求) -->
+<!-- 2. What I'm Working On -->
 <div align="center">
-  <table style="border: 1px solid #e1e4e8; border-radius: 10px; max-width: 700px;">
+  <table style="border: 1px solid #e1e4e8; border-radius: 10px; max-width: 760px;">
     <tr>
       <td align="center" style="padding: 15px;">
-        <h3>🎯 Collaboration & Opportunities</h3>
+        <h3>🎯 What I'm Working On</h3>
         <p align="left" style="margin-left: 20px;">
-          <b>👋 For Recruiters:</b><br/>
-          I am actively seeking <b>Internships</b> in <b>AI Development</b> or <b>AI Product Management</b>. While I come from a Full Stack background, I am rapidly upskilling in LLM applications and Agentic workflows.
+          <b>🔧 Backend Engineering:</b><br/>
+          Learning backend fundamentals through <b>Go</b> and <b>Python</b>, including API design, service architecture, middleware, caching, and system thinking.
         </p>
         <p align="left" style="margin-left: 20px;">
-          <b>🤝 For Peers:</b><br/>
-          <ul>
-            <li align="left">Looking for <b>Teammates</b> for Kaggle competitions & Hackathons.</li>
-            <li align="left">Connecting with <b>AI Agent builders</b> to discuss ideas and co-build side projects.</li>
-          </ul>
+          <b>🤖 AI Engineering:</b><br/>
+          Building projects around <b>RAG pipelines</b>, <b>agent workflows</b>, <b>LLM evaluation</b>, and developer-oriented AI tools.
+        </p>
+        <p align="left" style="margin-left: 20px;">
+          <b>📚 Current Focus:</b><br/>
+          Open-source learning, internship-ready project polishing, and turning ideas into production-style demos with clear engineering structure.
         </p>
         <p align="center">
-            <i>"Let's turn ideas into reality fast."</i> ⚡
+          <i>"Build real systems, not just demos."</i> ⚡
         </p>
       </td>
     </tr>
@@ -63,53 +65,73 @@
 
 <br/>
 
-<!-- 4. Tech Stack -->
+<!-- 3. Tech Stack -->
 <div align="center">
-  <h3>🛠️ Tech Stack & Arsenal</h3>
-  
-  <!-- 第一行：核心语言与前端 -->
+  <h3>🛠️ Tech Stack</h3>
+
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,cpp,java,js,ts,html,css&perline=7" />
+    <img src="https://skillicons.dev/icons?i=go,python,java,cpp,js,ts,html,css&perline=8" />
   </a>
-  
+
   <br/><br/>
 
-  <!-- 第二行：AI, Data & Tools -->
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,docker,git,linux,mysql,redis&perline=7" />
+    <img src="https://skillicons.dev/icons?i=fastapi,spring,docker,git,linux,mysql,redis,postgres&perline=8" />
   </a>
-  
+
+  <br/><br/>
+
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow&perline=8" />
+  </a>
+
   <p style="font-size: 12px; color: #888;">
-    + Exploring <b>Cursor/Windsurf</b> for AI-Native Development
+    Also exploring <b>LangChain</b>, <b>LangGraph</b>, <b>Milvus</b>, <b>LlamaIndex</b>, <b>Prompt Engineering</b>, and <b>AI-assisted development workflows</b>.
   </p>
 </div>
 
 <br/>
 
-<!-- 5. Experience & Community -->
+<!-- 4. Projects & Interests -->
 <div align="center">
-  <h3>🚀 Open Source & Community</h3>
-  
+  <h3>🚀 Projects & Interests</h3>
+
   <table style="border: none;">
     <tr>
-      <td width="350" valign="top" style="padding-right: 10px;">
-        <h4 align="center">🏆 Community Roles</h4>
+      <td width="360" valign="top" style="padding-right: 10px;">
+        <h4 align="center">🔭 Building</h4>
         <ul>
-          <li><b>Datawhale Member</b> 🐋 <br/> <sub>Active contributor to open-source AI learning roadmaps.</sub></li>
-          <li><b>ModelScope Developer</b> 🤖 <br/> <sub>Building toolchains and participating in model applications.</sub></li>
-          <li><b>Kaggle Competitor</b> 🏅 <br/> <sub>Validating algorithms and Multi-Agent architectures.</sub></li>
+          <li><b>AI Agent / Workflow Systems</b><br/><sub>Experimenting with multi-step agent pipelines, automation flows, and tool orchestration.</sub></li>
+          <li><b>RAG & Knowledge Base Projects</b><br/><sub>Working on retrieval, reranking, vector storage, and LLM application backends.</sub></li>
+          <li><b>Backend Practice Projects</b><br/><sub>Using Go / Python to improve engineering habits, project structure, and deployment awareness.</sub></li>
         </ul>
       </td>
-      <td width="350" valign="top" style="padding-left: 10px;">
-        <h4 align="center">🔭 Building in Public</h4>
+      <td width="360" valign="top" style="padding-left: 10px;">
+        <h4 align="center">📖 Learning</h4>
         <ul>
-          <li><b>Enterprise Auto-Reporting</b> 📊 <br/> <sub>Microservices + Multi-Agent orchestration.</sub></li>
-          <li><b>RAG & Knowledge Base</b> 🧠 <br/> <sub>Integration of LLMs into NoCode platforms (Coze).</sub></li>
-          <li><b>Vibe Coding Experiments</b> ⚡ <br/> <sub>Rapid prototyping using AI-assisted IDEs.</sub></li>
+          <li><b>Backend Fundamentals</b><br/><sub>Networking, concurrency, caching, database design, API development, and system design.</sub></li>
+          <li><b>AI Engineering</b><br/><sub>Prompting, evaluation, agent frameworks, LLM applications, and model-serving related workflows.</sub></li>
+          <li><b>Open Source</b><br/><sub>Reading real-world repositories and looking for contribution opportunities relevant to backend and AI systems.</sub></li>
         </ul>
       </td>
     </tr>
   </table>
+</div>
+
+<br/>
+
+<!-- 5. Opportunities -->
+<div align="center">
+  <h3>🤝 Open to</h3>
+  <p>
+    <b>Backend Engineering Internships</b> ·
+    <b>AI Engineering Internships</b> ·
+    <b>Open Source Collaboration</b>
+  </p>
+  <p style="color:#666; max-width:700px; margin: 0 auto;">
+    I’m especially interested in opportunities related to <b>backend systems</b>, <b>LLM applications</b>,
+    <b>agent platforms</b>, and <b>developer tools</b>.
+  </p>
 </div>
 
 <br/>
