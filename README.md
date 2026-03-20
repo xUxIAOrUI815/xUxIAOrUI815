@@ -60,31 +60,6 @@
 
 <br/>
 
-<!-- 3. Tech Stack -->
-<div align="center">
-  <h3>🛠️ Tech Stack</h3>
-
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=go,python,java,cpp,js,ts,html,css&perline=8" />
-  </a>
-
-  <br/><br/>
-
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=fastapi,spring,docker,git,linux,mysql,redis,postgres&perline=8" />
-  </a>
-
-  <br/><br/>
-
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow&perline=8" />
-  </a>
-
-  <p style="font-size: 12px; color: #888;">
-    Also exploring <b>LangChain</b>, <b>LangGraph</b>, <b>Milvus</b>, <b>LlamaIndex</b>, <b>Prompt Engineering</b>, and <b>AI-assisted development workflows</b>.
-  </p>
-</div>
-
 <br/>
 
 <!-- 4. Projects & Interests -->
