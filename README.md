@@ -26,12 +26,7 @@
     </a>
   </div>
 
-  <!-- GitRoll Badge -->
-  <p align="center" style="margin-top: 14px; margin-bottom: 8px;">
-    <a href="https://gitroll.io/profile/ugVp3fQXdOeauyeAfuFGl7cdVgpj1">
-      <img src="https://gitroll.io/api/badges/profiles/v1/ugVp3fQXdOeauyeAfuFGl7cdVgpj1?theme=light" alt="GitRoll Profile Badge" width="500"/>
-    </a>
-  </p>
+
 
 </div>
 
