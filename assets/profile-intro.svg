@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="132" viewBox="0 0 640 132" role="img" aria-labelledby="title description">
+  <title id="title">I'm Xiaorui Xu.</title>
+  <desc id="description">I'm building AI agents. Open to internships and full-time roles.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .heading { fill: #1f2328; font-size: 36px; font-weight: 700; }
+    .focus { fill: #1f2328; font-size: 24px; font-weight: 500; }
+    .availability { fill: #59636e; font-size: 18px; }
+    @media (prefers-color-scheme: dark) {
+      .heading, .focus { fill: #f0f6fc; }
+      .availability { fill: #9198a1; }
+    }
+  </style>
+  <text class="heading" x="0" y="40">I'm Xiaorui Xu.</text>
+  <text class="focus" x="0" y="80">I'm building AI agents.</text>
+  <text class="availability" x="0" y="114">Open to internships and full-time roles.</text>
+</svg>
