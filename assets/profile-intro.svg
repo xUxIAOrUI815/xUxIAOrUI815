@@ -1,17 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="132" viewBox="0 0 640 132" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="64" viewBox="0 0 640 64" role="img" aria-labelledby="title description">
   <title id="title">I'm Xiaorui Xu.</title>
-  <desc id="description">I'm building AI agents. Open to internships and full-time roles.</desc>
+  <desc id="description">I'm Xiaorui Xu. I'm building AI agents. Open to internships and full-time roles.</desc>
   <style>
-    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .heading { fill: #1f2328; font-size: 36px; font-weight: 700; }
-    .focus { fill: #1f2328; font-size: 24px; font-weight: 500; }
-    .availability { fill: #59636e; font-size: 18px; }
+    text {
+      font-family: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      font-size: 24px;
+      font-weight: 600;
+      fill: #1f2328;
+    }
+    .cursor { fill: #1f2328; }
+    .reduced-motion { display: none; }
     @media (prefers-color-scheme: dark) {
-      .heading, .focus { fill: #f0f6fc; }
-      .availability { fill: #9198a1; }
+      text, .cursor { fill: #f0f6fc; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .animated-line { display: none; }
+      .reduced-motion { display: inline; }
     }
   </style>
-  <text class="heading" x="0" y="40">I'm Xiaorui Xu.</text>
-  <text class="focus" x="0" y="80">I'm building AI agents.</text>
-  <text class="availability" x="0" y="114">Open to internships and full-time roles.</text>
+  <!-- Each character occupies 14.4px. A 15s cycle types, holds, and erases each sentence in turn. -->
+  <defs>
+    <clipPath id="line-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="0" height="64">
+        <animate attributeName="width" dur="15s" repeatCount="indefinite" calcMode="discrete"
+          values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2;201.6;216;201.6;187.2;172.8;158.4;144;129.6;115.2;100.8;86.4;72;57.6;43.2;28.8;14.4;0;0"
+          keyTimes="0;0.025;0.03;0.035;0.04;0.045;0.05;0.055;0.06;0.065;0.07;0.075;0.08;0.085;0.09;0.095;0.203667;0.205667;0.207667;0.209667;0.211667;0.213667;0.215667;0.217667;0.219667;0.221667;0.223667;0.225667;0.227667;0.229667;0.231667;1" />
+      </rect>
+    </clipPath>
+    <clipPath id="line-2-clip" clipPathUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="0" height="64">
+        <animate attributeName="width" dur="15s" repeatCount="indefinite" calcMode="discrete"
+          values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2;201.6;216;230.4;244.8;259.2;273.6;288;302.4;316.8;331.2;316.8;302.4;288;273.6;259.2;244.8;230.4;216;201.6;187.2;172.8;158.4;144;129.6;115.2;100.8;86.4;72;57.6;43.2;28.8;14.4;0;0"
+          keyTimes="0;0.263333;0.268333;0.273333;0.278333;0.283333;0.288333;0.293333;0.298333;0.303333;0.308333;0.313333;0.318333;0.323333;0.328333;0.333333;0.338333;0.343333;0.348333;0.353333;0.358333;0.363333;0.368333;0.373333;0.482;0.484;0.486;0.488;0.49;0.492;0.494;0.496;0.498;0.5;0.502;0.504;0.506;0.508;0.51;0.512;0.514;0.516;0.518;0.52;0.522;0.524;0.526;1" />
+      </rect>
+    </clipPath>
+    <clipPath id="line-3-clip" clipPathUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="0" height="64">
+        <animate attributeName="width" dur="15s" repeatCount="indefinite" calcMode="discrete"
+          values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2;201.6;216;230.4;244.8;259.2;273.6;288;302.4;316.8;331.2;345.6;360;374.4;388.8;403.2;417.6;432;446.4;460.8;475.2;489.6;504;518.4;532.8;547.2;561.6;576;561.6;547.2;532.8;518.4;504;489.6;475.2;460.8;446.4;432;417.6;403.2;388.8;374.4;360;345.6;331.2;316.8;302.4;288;273.6;259.2;244.8;230.4;216;201.6;187.2;172.8;158.4;144;129.6;115.2;100.8;86.4;72;57.6;43.2;28.8;14.4;0;0"
+          keyTimes="0;0.557667;0.562667;0.567667;0.572667;0.577667;0.582667;0.587667;0.592667;0.597667;0.602667;0.607667;0.612667;0.617667;0.622667;0.627667;0.632667;0.637667;0.642667;0.647667;0.652667;0.657667;0.662667;0.667667;0.672667;0.677667;0.682667;0.687667;0.692667;0.697667;0.702667;0.707667;0.712667;0.717667;0.722667;0.727667;0.732667;0.737667;0.742667;0.747667;0.752667;0.861333;0.863333;0.865333;0.867333;0.869333;0.871333;0.873333;0.875333;0.877333;0.879333;0.881333;0.883333;0.885333;0.887333;0.889333;0.891333;0.893333;0.895333;0.897333;0.899333;0.901333;0.903333;0.905333;0.907333;0.909333;0.911333;0.913333;0.915333;0.917333;0.919333;0.921333;0.923333;0.925333;0.927333;0.929333;0.931333;0.933333;0.935333;0.937333;0.939333;1" />
+      </rect>
+    </clipPath>
+  </defs>
+  <g class="animated-line" opacity="1">
+    <animate attributeName="opacity" dur="15s" repeatCount="indefinite" calcMode="discrete"
+      values="1;0;0" keyTimes="0;0.258333;1" />
+    <text x="0" y="43" textLength="216" lengthAdjust="spacingAndGlyphs" clip-path="url(#line-1-clip)">I'm Xiaorui Xu.</text>
+    <rect class="cursor" x="0" y="19" width="2" height="29">
+      <animate attributeName="x" dur="15s" repeatCount="indefinite" calcMode="discrete"
+        values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2;201.6;216;201.6;187.2;172.8;158.4;144;129.6;115.2;100.8;86.4;72;57.6;43.2;28.8;14.4;0;0"
+        keyTimes="0;0.025;0.03;0.035;0.04;0.045;0.05;0.055;0.06;0.065;0.07;0.075;0.08;0.085;0.09;0.095;0.203667;0.205667;0.207667;0.209667;0.211667;0.213667;0.215667;0.217667;0.219667;0.221667;0.223667;0.225667;0.227667;0.229667;0.231667;1" />
+      <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" dur="0.8s" repeatCount="indefinite" calcMode="discrete" />
+    </rect>
+  </g>
+  <g class="animated-line" opacity="0">
+    <animate attributeName="opacity" dur="15s" repeatCount="indefinite" calcMode="discrete"
+      values="0;1;0;0" keyTimes="0;0.258333;0.552667;1" />
+    <text x="0" y="43" textLength="331.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#line-2-clip)">I'm building AI agents.</text>
+    <rect class="cursor" x="0" y="19" width="2" height="29">
+      <animate attributeName="x" dur="15s" repeatCount="indefinite" calcMode="discrete"
+        values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2;201.6;216;230.4;244.8;259.2;273.6;288;302.4;316.8;331.2;316.8;302.4;288;273.6;259.2;244.8;230.4;216;201.6;187.2;172.8;158.4;144;129.6;115.2;100.8;86.4;72;57.6;43.2;28.8;14.4;0;0"
+        keyTimes="0;0.263333;0.268333;0.273333;0.278333;0.283333;0.288333;0.293333;0.298333;0.303333;0.308333;0.313333;0.318333;0.323333;0.328333;0.333333;0.338333;0.343333;0.348333;0.353333;0.358333;0.363333;0.368333;0.373333;0.482;0.484;0.486;0.488;0.49;0.492;0.494;0.496;0.498;0.5;0.502;0.504;0.506;0.508;0.51;0.512;0.514;0.516;0.518;0.52;0.522;0.524;0.526;1" />
+      <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" dur="0.8s" repeatCount="indefinite" calcMode="discrete" />
+    </rect>
+  </g>
+  <g class="animated-line" opacity="0">
+    <animate attributeName="opacity" dur="15s" repeatCount="indefinite" calcMode="discrete"
+      values="0;1;0" keyTimes="0;0.552667;1" />
+    <text x="0" y="43" textLength="576" lengthAdjust="spacingAndGlyphs" clip-path="url(#line-3-clip)">Open to internships and full-time roles.</text>
+    <rect class="cursor" x="0" y="19" width="2" height="29">
+      <animate attributeName="x" dur="15s" repeatCount="indefinite" calcMode="discrete"
+        values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2;201.6;216;230.4;244.8;259.2;273.6;288;302.4;316.8;331.2;345.6;360;374.4;388.8;403.2;417.6;432;446.4;460.8;475.2;489.6;504;518.4;532.8;547.2;561.6;576;561.6;547.2;532.8;518.4;504;489.6;475.2;460.8;446.4;432;417.6;403.2;388.8;374.4;360;345.6;331.2;316.8;302.4;288;273.6;259.2;244.8;230.4;216;201.6;187.2;172.8;158.4;144;129.6;115.2;100.8;86.4;72;57.6;43.2;28.8;14.4;0;0"
+        keyTimes="0;0.557667;0.562667;0.567667;0.572667;0.577667;0.582667;0.587667;0.592667;0.597667;0.602667;0.607667;0.612667;0.617667;0.622667;0.627667;0.632667;0.637667;0.642667;0.647667;0.652667;0.657667;0.662667;0.667667;0.672667;0.677667;0.682667;0.687667;0.692667;0.697667;0.702667;0.707667;0.712667;0.717667;0.722667;0.727667;0.732667;0.737667;0.742667;0.747667;0.752667;0.861333;0.863333;0.865333;0.867333;0.869333;0.871333;0.873333;0.875333;0.877333;0.879333;0.881333;0.883333;0.885333;0.887333;0.889333;0.891333;0.893333;0.895333;0.897333;0.899333;0.901333;0.903333;0.905333;0.907333;0.909333;0.911333;0.913333;0.915333;0.917333;0.919333;0.921333;0.923333;0.925333;0.927333;0.929333;0.931333;0.933333;0.935333;0.937333;0.939333;1" />
+      <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" dur="0.8s" repeatCount="indefinite" calcMode="discrete" />
+    </rect>
+  </g>
+  <text class="reduced-motion" x="0" y="43">I'm Xiaorui Xu.</text>
 </svg>

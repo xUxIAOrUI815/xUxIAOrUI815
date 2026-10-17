@@ -11,7 +11,7 @@ Logos identify the respective university and company. Trademark rights remain wi
 
 ## Profile introduction
 
-- `profile-intro.svg`: Original text-only SVG created for this profile on 2026-10-17, using the introduction text already provided in README.md. Supports light and dark color schemes.
+- `profile-intro.svg`: Original animated text-only SVG created for this profile on 2026-10-17, using the three introduction sentences provided by the user. Types and erases one sentence at a time in a repeating cycle, with a blinking cursor. Supports light and dark color schemes and a static reduced-motion fallback.
 
 ## Lobe Icons license
 

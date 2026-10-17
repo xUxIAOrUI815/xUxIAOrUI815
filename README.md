@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="assets/profile-intro.svg?v=4" width="640" alt="I'm Xiaorui Xu. I'm building AI agents. Open to internships and full-time roles." />
+  <img src="assets/profile-intro.svg?v=5" width="640" alt="I'm Xiaorui Xu. I'm building AI agents. Open to internships and full-time roles." />
 </p>
 
 **AI Engineering** · Agent Systems
